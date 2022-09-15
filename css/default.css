@@ -1,0 +1,31 @@
+/* Reset */
+*,
+::before,
+::after{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Set all elements to have nothing to edit easely */
+
+html{
+    overflow-x: hidden;
+}
+
+input, select, textarea{
+    outline: none;
+    border: none;
+}
+
+button{
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+a, li{
+    text-decoration: none;
+    list-style: none;
+}

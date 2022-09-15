@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/default.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- Card -->
+        <div class="card">
+            <div class="content">
+                <div class="main-title">
+                    <h1>Enter your password</h1>
+                </div>
+
+                <!-- Place where you can find the profil picture, name & kind of account -->
+                <div class="identity">
+                    <div class="profil-picture">
+                        <img src="./image/280120282_693312041961335_3199137599329280097_n.jpg" alt="">
+                    </div>
+
+                    <div class="description">
+                        <div class="kind-account">
+                            <h2>Developer Account</h2>
+                        </div>
+                        <div class="user-name">
+                            <h2>Sébastien Dufour</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Place where you can find the input to write the password -->
+                <div class="password-section">
+                    <div class="password-title">
+                        <h3>Password</h3>
+                    </div>
+
+                    <div class="type-password-section">
+                        <div class="inside-input">
+                            <li><ion-icon name="lock-closed-outline"></ion-icon></li>
+                            <li><input type="password" name="password" id="password-input" placeholder="Type your password..."></li>
+                        </div>
+                        <button onclick="showPassword()" class="show-password"><ion-icon name="eye-outline" id="eye-open"></ion-icon></button>
+                    </div>
+                </div>
+
+                <!-- Here you have the section to continue to the site, & stay signed in -->
+                <div class="next-section">
+                    <div class="stay-sign-in">
+                        <li><input type="checkbox"></li>
+                        <li><h2>Stay signed in</h2></li>
+                    </div>
+                    <li><button id="continue-button">Continue</button></li>
+                </div>
+            </div>
+
+            <div class="reset-password">
+                <button onclick="resetPassword()">Reset password</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-message">
+        <div class="title-mobile-message">
+            <h1>Oh no 😥</h1>
+        </div>
+
+        <div class="message-content">
+            <p>I'm sorry but, your screen is too small to see this, please use a computer, or a larger screen to enjoy this design. 😉</p>
+        </div>
+    </div>
+
+    <!-- JavaScript section -->
+    <script src="./script/app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
