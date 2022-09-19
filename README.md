@@ -21,11 +21,11 @@ Result :
 ![alt text](./image/resultat-final.jpg)
 
 
-# Socials
-
 # Result
 
 https://sebastien62400.github.io/sign-in-css-training-1/
+
+# Socials
 
 [Instagram](https://www.instagram.com/sebastien010703/?hl=fr)
 
