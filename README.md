@@ -6,6 +6,7 @@ https://uidesigndaily.com/posts/figma-enter-password-log-in-authentication-card-
 # Research for this project
 
 To create the show/hide the password :
+
 How to change input type with javascript : https://stackoverflow.com/questions/9093992/change-html-form-input-type-by-javascript
 
 Toggle in javascript : https://www.developerhelps.com/toggle-in-javascript/
