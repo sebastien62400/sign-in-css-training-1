@@ -29,4 +29,6 @@ https://sebastien62400.github.io/sign-in-css-training-1/
 
 [Instagram](https://www.instagram.com/sebastien010703/?hl=fr)
 
-I've not making the responsive because it was not my goal in the project, I'll make it in other project.
+# Informations
+
+I've not making the responsive because it was not my goal in the project, I'll make it in other projects.
