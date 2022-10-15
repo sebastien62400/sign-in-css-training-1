@@ -10,3 +10,7 @@ function showPassword(){
         eye.setAttribute('name', 'eye-outline')
     }
 }
+
+function resetPassword(){
+    password.value = "";
+}
